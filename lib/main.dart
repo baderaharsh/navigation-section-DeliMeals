@@ -1,3 +1,4 @@
+import 'package:DeliMeals/category_meals_page.dart';
 import 'package:flutter/material.dart';
 import './categories_page.dart';
 
@@ -28,6 +29,9 @@ class MyApp extends StatelessWidget {
             )),
       ),
       home: Categories(),
+      routes: {
+        '/categories': (ctx) => CategoryMealsPage(),
+      },
     );
   }
 }
