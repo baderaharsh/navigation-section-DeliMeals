@@ -1,16 +1,11 @@
 # DeliMeals
 
-A new Flutter project.
+###########################################################################################
 
-## Getting Started
+This application is to explore various dishes/meals of different categories. This application is created to learn about creating multiple screens and navigation.
 
-This project is a starting point for a Flutter application.
+###########################################################################################
 
-A few resources to get you started if this is your first Flutter project:
+Step 1 - Created Home page (categories_page.dart) and added GridView for categories in it.
+Step 2 - Styling and theming GridView. Added new Font styles for Caregory titles. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
