@@ -16,7 +16,7 @@ Step 4 - Used new method pushNamed for going to new directory. First added the d
 
 Step 5 - Created new model for meals. Made changes in dummy_data.dart files by adding few meals and their details. For testing, implemented ListView to display title of meals in the respective category page.
 
-Step 6 - Implemented meals page. New widget meal_item.dart is created to generate each meal in the list of meals of specific category. 
+Step 6 - Implemented meals page. New widget meal_item.dart is created to generate each meal in the list of meals of specific category. On category_meals_page you will see all the meals that beongs to selected category.
 
 
 
