@@ -18,6 +18,8 @@ Step 5 - Created new model for meals. Made changes in dummy_data.dart files by a
 
 Step 6 - Implemented meals page. New widget meal_item.dart is created to generate each meal in the list of meals of specific category. On category_meals_page you will see all the meals that beongs to selected category.
 
+Step  7 - Completed the meals recipe page. Used Listiew for Ingredients and ListView + ListTile for the steps. Divider() used to insert ruler between the steps. 
+
 
 
 
