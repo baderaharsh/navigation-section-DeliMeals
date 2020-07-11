@@ -20,6 +20,8 @@ Step 6 - Implemented meals page. New widget meal_item.dart is created to generat
 
 Step  7 - Completed the meals recipe page. Used Listiew for Ingredients and ListView + ListTile for the steps. Divider() used to insert ruler between the steps. 
 
+Step 8 - Added Tabs to manage Categories page and Favourites page.
+
 
 
 

@@ -35,7 +35,20 @@ class CategoryItem extends StatelessWidget {
         padding: EdgeInsets.all(15),
         child: Text(
           title,
-          style: Theme.of(context).textTheme.title,
+          // style: Theme.of(context).textTheme.title,
+          style: TextStyle(
+            color: color,
+            fontSize: 20,
+            fontFamily: 'RobotoCondensed',
+            fontWeight: FontWeight.bold,
+            // decoration: TextDecoration.underline,
+            // shadows: [
+            //   Shadow(
+            //     blurRadius: 10,
+            //     color: color,
+            //   )
+            // ],
+          ),
         ),
         decoration: BoxDecoration(
           gradient: LinearGradient(
