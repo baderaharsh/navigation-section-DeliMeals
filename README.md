@@ -24,7 +24,13 @@ Step 8 - Added Tabs to manage Categories page and Favourites page.
 
 Step 9 - Implemented Bottom Navigation bar instead of tabs on the tab.
 
-Step 10 - Added drawer on top using drawer arguement in Scaffol.
+Step 10 - Added drawer on top using drawer arguement in Scaffold.
+
+Step 10 - Contents in drawer added. New page for filter screen created.
+
+Step 11 - Used pushReplacementNamed() instead of pushNamed() to avoid creation of multiple screens in background stack of screens.
+
+Step 12 - New feature added to remove specific meal from the list. Used pop() with data passing to previous page and retrieving passed data using .then() with Navigator.
 
 
 
