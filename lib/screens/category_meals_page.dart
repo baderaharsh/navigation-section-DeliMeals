@@ -62,7 +62,6 @@ class _CategoryMealsPageState extends State<CategoryMealsPage> {
             duration: displayedMeals[index].duration,
             complexity: displayedMeals[index].complexity,
             affordability: displayedMeals[index].affordability,
-            handleDelete: _removeMeal,
           );
         },
         itemCount: displayedMeals.length,

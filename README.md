@@ -32,6 +32,10 @@ Step 11 - Used pushReplacementNamed() instead of pushNamed() to avoid creation o
 
 Step 12 - New feature added to remove specific meal from the list. Used pop() with data passing to previous page and retrieving passed data using .then() with Navigator.
 
+Step 13 - Completed filter feauture. For applying filters, used SwitchListTile and boolean values to apply filters.
+
+Step 14 - Finished the app after completing favorites section by removing remove feature that was added before and using same floating action button to add and remove the meal as a favorite.
+
 
 
 
