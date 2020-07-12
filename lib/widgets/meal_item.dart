@@ -75,6 +75,7 @@ class MealItem extends StatelessWidget {
     return InkWell(
       onTap: () => selectMeal(context),
       child: Card(
+        color: Theme.of(context).accentColor,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),
         ),
@@ -123,29 +124,47 @@ class MealItem extends StatelessWidget {
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Icon(Icons.schedule),
+                      Icon(
+                        Icons.schedule,
+                        color: Colors.white,
+                      ),
                       SizedBox(
                         width: 6,
                       ),
-                      Text('$duration min'),
+                      Text(
+                        '$duration min',
+                        style: TextStyle(color: Colors.white),
+                      ),
                     ],
                   ),
                   Row(
                     children: <Widget>[
-                      Icon(Icons.work),
+                      Icon(
+                        Icons.work,
+                        color: Colors.white,
+                      ),
                       SizedBox(
                         width: 6,
                       ),
-                      Text(complexityText),
+                      Text(
+                        complexityText,
+                        style: TextStyle(color: Colors.white),
+                      ),
                     ],
                   ),
                   Row(
                     children: <Widget>[
-                      Icon(Icons.attach_money),
+                      Icon(
+                        Icons.attach_money,
+                        color: Colors.white,
+                      ),
                       SizedBox(
                         width: 6,
                       ),
-                      Text(affordabilityText),
+                      Text(
+                        affordabilityText,
+                        style: TextStyle(color: Colors.white),
+                      ),
                     ],
                   )
                 ],

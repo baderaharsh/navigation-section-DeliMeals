@@ -22,6 +22,10 @@ Step  7 - Completed the meals recipe page. Used Listiew for Ingredients and List
 
 Step 8 - Added Tabs to manage Categories page and Favourites page.
 
+Step 9 - Implemented Bottom Navigation bar instead of tabs on the tab.
+
+Step 10 - Added drawer on top using drawer arguement in Scaffol.
+
 
 
 
