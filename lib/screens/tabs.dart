@@ -1,6 +1,7 @@
 import './categories_page.dart';
 import 'package:flutter/material.dart';
 import './favourites.dart';
+import '../widgets/drawer.dart';
 
 class TabsPage extends StatefulWidget {
   @override
@@ -24,11 +25,7 @@ class _TabsPageState extends State<TabsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        drawer: Drawer(
-          child: Center(
-            child: Text('Drawer'),
-          ),
-        ),
+        drawer: MainDrawer(),
         appBar: AppBar(
           title: _selectedIndex == 0 ? Text('DeliMeals') : Text('Favourites'),
         ),
