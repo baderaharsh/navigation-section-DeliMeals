@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../screens/category_meals_page.dart';
 
 class CategoryItem extends StatelessWidget {
   final String id;
@@ -19,7 +20,7 @@ class CategoryItem extends StatelessWidget {
 
   void selectCategory(BuildContext ctx) {
     Navigator.of(ctx).pushNamed(
-      '/categories',
+      CategoryMealsPage.pageRoute,
       arguments: {'id': id, 'title': title},
     );
   }
